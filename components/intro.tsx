@@ -51,14 +51,14 @@ export default function Intro() {
       </div>
 
       <motion.h2
-  className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+  className="mb-10 mt-4 px-4 text-base font-medium !leading-[1.5] sm:text-2xl"
   initial={{ opacity: 0, y: 100 }}
   animate={{ opacity: 1, y: 0 }}
 >
   <span className="font-bold">Hello, I'm Rahul Deshmukh</span>. I recently completed my Master’s in Computer Science{" "}
   <span className="font-bold"></span> from{" "}
-  <span className="font-bold">Arizona State University</span> in May 2025. I bring{" "}
-  <span className="font-bold">1.7 years</span> of experience working across{" "}
+  <span className="font-bold">Arizona State University</span> in May 2025. I bring close to{" "}
+  <span className="font-bold">2 years</span> of experience working across{" "}
   <span className="font-bold">Data Science</span>,{" "}
   <span className="font-bold">Machine Learning</span>, and{" "}
   <span className="font-bold">Backend Engineering</span>. I enjoy building systems that solve{" "}
@@ -67,8 +67,6 @@ export default function Intro() {
   <span className="underline">Python, SQL, LLMs, FastAPI, DevOps</span>, and{" "}
   <span className="underline">cloud platforms like AWS and GCP</span>.
 </motion.h2>
-
-
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
