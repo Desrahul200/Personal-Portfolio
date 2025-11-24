@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import AieoImg from "@/public/aieo.png";
 import NpcSimImg from "@/public/npc-sim.png";
 import RetailSimImg from "@/public/retail-sim.png";
 import AutoGenSuiteImg from "@/public/autogen-suite.png";
@@ -69,6 +70,16 @@ export const experiencesData = [
 
 
 export const projectsData = [
+
+  {
+  title: "Autonomous Intelligent Event Orchestrator",
+  description:
+    "High-throughput ML routing system with Kafka, MLflow, SHAP explainability, RL-based decisioning, and Streamlit observability dashboard. Includes optional LLM summarization and MCP-based introspection",
+  tags: ["Kafka", "MLflow", "XGBoost", "Docker", "FastAPI", "RL", "SHAP", "Streamlit", "MCP"],
+  imageUrl: AieoImg,
+  githubUrl: "https://github.com/Desrahul200/AIEO"
+  },
+
   {
     title: "AI Agent–Driven NPC Simulator",
     description:
@@ -173,7 +184,6 @@ export const skillsData = [
 
   // Machine Learning & AI
   "scikit-learn",
-  "H2O",
   "PyTorch",
   "TensorFlow",
   "Keras",
