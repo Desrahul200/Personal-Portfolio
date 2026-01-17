@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Data Scientist",
     location: "ASU Enterprise Partners, Scottsdale, AZ",
     description:
-      "Working on marketing attribution models, donor analytics, and alumni segmentation using Python, R, BigQuery, and AWS. Focused on applied ML and end-to-end data pipelines for fundraising and learner engagement.",
+      "Working on marketing attribution, donor analytics, alumni segmentation, and conversational AI agents in Microsoft Copilot Studio using Python, R, BigQuery, and AWS. Focused on applied ML and end-to-end data pipelines for fundraising and learner engagement.",
     icon: React.createElement(CgWorkAlt),
     date: "Jan 2024 – Present",
   },
@@ -81,7 +81,7 @@ export const projectsData = [
   },
 
   {
-    title: "AI Agent–Driven NPC Simulator",
+    title: "AI Dialogue System with Persistent Memory",
     description:
       "An emergent NPC system using LangGraph, FAISS, and Groq LLMs. Agents control dialogue, memory, emotion, and quest logic, enabling dynamic behavior and realistic interactions inside Unreal Engine.",
     tags: ["LangGraph", "FAISS", "FastAPI", "LLM", "Unreal Engine", "C++"],

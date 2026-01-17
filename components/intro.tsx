@@ -55,7 +55,7 @@ export default function Intro() {
   initial={{ opacity: 0, y: 100 }}
   animate={{ opacity: 1, y: 0 }}
 >
-  <span className="font-bold">Hello, I'm Rahul Deshmukh</span>. I recently completed my Master’s in Computer Science{" "}
+  {/* <span className="font-bold">Hello, I'm Rahul Deshmukh</span>. I recently completed my Master’s in Computer Science{" "}
   <span className="font-bold"></span> from{" "}
   <span className="font-bold">Arizona State University</span> in May 2025. I bring close to{" "}
   <span className="font-bold">2 years</span> of experience working across{" "}
@@ -65,7 +65,19 @@ export default function Intro() {
   <span>real-world problems from AI-driven simulations to cloud-scale analytics.</span>
    My expertise spans{" "}
   <span className="underline">Python, SQL, LLMs, FastAPI, DevOps</span>, and{" "}
-  <span className="underline">cloud platforms like AWS and GCP</span>.
+  <span className="underline">cloud platforms like AWS and GCP</span>. */}
+
+<span>
+  Hi, I’m Rahul Deshmukh</span>
+<span>, a recent Computer Science graduate from Arizona State University (May 2025) with 2 years of hands on experience building real world data and AI systems.{" "}
+</span>
+<span>
+  I’ve delivered production ready AI agents, multi-agent workflows, and large scale attribution modeling systems used for media optimization and analytics.{" "}
+  My work spans predictive modeling, NLP applications, and cloud scale data pipelines, with a focus on building systems that are practical, reliable, and measurable in impact.
+</span>
+
+
+
 </motion.h2>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
