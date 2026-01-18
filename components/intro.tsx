@@ -68,12 +68,18 @@ export default function Intro() {
   <span className="underline">cloud platforms like AWS and GCP</span>. */}
 
 <span>
-  Hi, I’m Rahul Deshmukh</span>
-<span>, a recent Computer Science graduate from Arizona State University (May 2025) with 2 years of hands on experience building real world data and AI systems.{" "}
+  Hi, I’m <span className="font-bold">Rahul Deshmukh</span>
 </span>
 <span>
-  I’ve delivered production ready AI agents, multi-agent workflows, and large scale attribution modeling systems used for media optimization and analytics.{" "}
-  My work spans predictive modeling, NLP applications, and cloud scale data pipelines, with a focus on building systems that are practical, reliable, and measurable in impact.
+  , a recent <span className="font-bold">Computer Science graduate</span> from{" "}
+  <span className="font-bold">Arizona State University</span> (May 2025) with{" "}
+  <span className="font-bold">2 years of hands-on experience</span> building real-world data and AI systems.{" "}
+</span>
+<span>
+  I’ve delivered <span className="font-bold">production-ready AI agents</span>,{" "}
+  <span className="font-bold">multi-agent workflows</span>, and{" "}
+  <span className="font-bold">large-scale attribution modeling systems</span> used for media optimization and analytics.{" "}
+  My work spans predictive modeling, NLP applications, and cloud-scale data pipelines, with a focus on building systems that are practical, reliable, and measurable in impact.
 </span>
 
 
